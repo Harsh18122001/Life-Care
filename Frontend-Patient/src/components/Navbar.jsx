@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get("http://localhost:4000/api/v1/user/patient/logout", {
+      .get("https://life-care-q5tc.onrender.com/api/v1/user/patient/logout", {
         withCredentials: true,
       })
       .then((res) => {
