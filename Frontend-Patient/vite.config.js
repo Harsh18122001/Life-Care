@@ -9,7 +9,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:4000', // your backend
+        target: 'https://life-care-q5tc.onrender.com', // your backend
         changeOrigin: true,
         secure: false,
        }
