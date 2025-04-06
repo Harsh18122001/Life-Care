@@ -15,7 +15,7 @@ const app = express();
 config({ path: "./config/config.env" })
 app.use(cors(
     {
-        origin: ["http://localhost:5174" ,"http://localhost:5173"],
+        origin: ["https://life-care-fe-patient.onrender.com" ,"http://localhost:5173"],
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true
     }
